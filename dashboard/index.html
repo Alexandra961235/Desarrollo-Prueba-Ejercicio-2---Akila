@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Akila · Pulso comercial</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="https://akila.com.co/" target="_blank" rel="noreferrer" aria-label="Sitio web de Akila"><img src="assets/akila-logo-white.svg" alt="Akila"></a>
+    <div class="top-actions"><span id="refreshStatus" role="status" aria-live="polite"></span><span id="updated">Actualizando…</span><button id="refreshBtn" type="button">Actualizar datos</button><button id="printBtn">Exportar / imprimir</button></div>
+  </header>
+  <main>
+    <section class="hero">
+      <div><p class="eyebrow">AKILA · PROYECTO BOGOTÁ</p><h1>Dashboard ejecutivo<br><em>de ventas</em></h1><p class="subtitle">Seguimiento consolidado del avance comercial, inventario disponible, comportamiento de ventas y composición financiera del proyecto.</p></div>
+      <div class="hero-meta"><span>AVANCE COMERCIAL</span><strong id="progressValue">—</strong><div class="progress"><i id="progressBar"></i></div><small id="progressCaption">—</small></div>
+    </section>
+
+    <div class="overview-heading"><div><p class="eyebrow">RESUMEN EJECUTIVO</p><h2>Estado general del proyecto</h2></div><p>Los cinco indicadores esenciales solicitados para la lectura de dirección.</p></div>
+    <section class="kpis" aria-label="Indicadores principales del proyecto">
+      <article class="kpi featured"><span>APARTAMENTOS VENDIDOS</span><strong id="sold">—</strong><small id="soldValue">—</small></article>
+      <article class="kpi"><span>DISPONIBLES</span><strong id="available">—</strong><small id="availableValue">—</small></article>
+      <article class="kpi"><span>PORTAFOLIO TOTAL</span><strong id="total">—</strong><small>unidades registradas</small></article>
+    </section>
+
+    <section class="filters weekly-filter" aria-label="Filtros del histórico de ventas">
+      <label>Agrupar por<select id="periodFilter"><option value="quarter">Trimestre</option><option value="month" selected>Mes</option><option value="week">Semana</option></select></label>
+      <label>Métrica de ventas<select id="metricFilter"><option value="count">Unidades</option><option value="value">Valor vendido (COP)</option></select></label>
+      <label>Desde<input id="startDateFilter" type="date"></label>
+      <label>Hasta<input id="endDateFilter" type="date"></label>
+      <button id="resetDateFilter" class="date-reset" type="button">Todo el período</button>
+    </section>
+
+    <section class="panel chart-panel history-panel">
+      <div class="panel-head"><div><p class="eyebrow">EVOLUCIÓN COMERCIAL</p><h2>Histórico de ventas</h2></div><div class="legend"><i></i><span id="chartLegend">Apartamentos vendidos</span></div></div><div class="period-comparison" aria-live="polite"><div><span id="currentPeriodLabel">Período actual</span><strong id="currentPeriodValue">—</strong></div><div><span id="previousPeriodLabel">Período anterior</span><strong id="previousPeriodValue">—</strong></div><div class="period-change" id="periodChange"><span>Variación</span><strong id="periodDelta">—</strong></div><small id="periodComparisonNote"></small></div><div id="weeklyChart" class="chart" role="img" aria-label="Histórico gráfico de ventas"></div>
+    </section>
+
+    <section class="insights-grid" aria-label="Composición de ventas por tipología y área">
+      <article class="panel mix-panel"><div class="panel-head"><div><p class="eyebrow">MEZCLA DE PRODUCTO</p><h2>Ventas por tipología</h2><p class="panel-hint">Selecciona una tipología para filtrar el histórico de ventas.</p></div><span class="metric-badge" id="productMixMetric">Unidades</span></div><div id="productMixChart" class="product-mix-chart"></div></article>
+      <article class="panel area-panel"><div class="panel-head"><div><p class="eyebrow">LECTURA DETALLADA</p><h2>Unidades vendidas por rango de área</h2><p class="panel-hint">Barras ordenadas de mayor a menor para comparar los cuatro rangos.</p></div><span class="product-count" id="areaRangeCountBadge">— rangos</span></div><div class="area-chart-head"><span>Rango</span><span>Unidades y participación</span></div><div id="areaDetailChart" class="area-ranking-chart" role="img" aria-label="Barras de unidades vendidas por rango de área"></div></article>
+    </section>
+
+    <section class="sales-section" id="salesAnalysis">
+      <div class="section-intro">
+        <div><p class="eyebrow">VENTAS REALIZADAS</p><h2>¿Quién compra y cómo financia?</h2><p>Explora únicamente las unidades vendidas. Todos los indicadores de esta sección reaccionan a los filtros.</p></div>
+        <button id="resetFilters" class="ghost-button">Restablecer filtros</button>
+      </div>
+
+      <div class="sales-filters">
+        <label>Tipología<select id="typeFilter"><option value="all">Todas las tipologías</option></select></label>
+        <label>Área mínima <span id="minAreaLabel">—</span> m²<input id="minArea" type="range" step="1"></label>
+        <label>Área máxima <span id="maxAreaLabel">—</span> m²<input id="maxArea" type="range" step="1"></label>
+      </div>
+      <p class="filter-result" id="filterResult">—</p>
+
+      <div class="sales-kpis">
+        <article><span>UNIDADES FILTRADAS</span><strong id="filteredUnits">—</strong><small id="filteredShare">—</small></article>
+        <article><span>VALOR VENDIDO</span><strong id="filteredValue">—</strong><small>COP</small></article>
+        <article><span>TICKET PROMEDIO</span><strong id="avgTicket">—</strong><small>por apartamento</small></article>
+        <article><span>ÁREA PROMEDIO</span><strong id="avgArea">—</strong><small>m² vendidos</small></article>
+      </div>
+
+      <div class="finance-grid">
+        <article class="panel payment-panel"><div class="panel-head"><div><p class="eyebrow">FORMA DE PAGO</p><h2>Unidades vendidas</h2></div></div><div class="donut-layout"><div id="paymentDonut" class="donut"><div><strong id="creditUnitShare">—</strong><small id="paymentLeadLabel">mayor grupo</small></div></div><div id="paymentLegend" class="donut-legend"></div></div></article>
+        <article class="panel"><div class="panel-head"><div><p class="eyebrow">COMPOSICIÓN DEL RECAUDO</p><h2>Contado vs. financiación</h2></div></div><div id="cashComposition" class="cash-composition"></div><p class="caveat">Proxy contractual: no representa fechas reales de ingreso o desembolso.</p></article>
+      </div>
+
+      <div class="finance-grid">
+        <article class="panel"><div class="panel-head"><div><p class="eyebrow">NIVEL DE FINANCIACIÓN</p><h2>% de crédito sobre el precio</h2></div></div><div id="creditBuckets" class="type-bars"></div></article>
+        <article class="panel"><div class="panel-head"><div><p class="eyebrow">DEMANDA POR ÁREA</p><h2>Unidades vendidas por rango</h2></div></div><div id="areaBuckets" class="type-bars"></div></article>
+      </div>
+    </section>
+
+    <section class="quality" id="qualityPanel"><div><p class="eyebrow">CALIDAD DEL DATO</p><h2 id="qualityTitle">Validando…</h2><p id="qualityText"></p></div><button id="qualityToggle" type="button">Ver detalle</button></section>
+  </main>
+  <dialog id="qualityDialog" class="quality-dialog" aria-labelledby="qualityDialogTitle">
+    <div class="dialog-head"><div><p class="eyebrow">CALIDAD DEL DATO</p><h2 id="qualityDialogTitle">Detalle de validaciones</h2><p id="qualityDialogSummary"></p></div><button id="qualityClose" class="dialog-close" type="button" aria-label="Cerrar ventana">×</button></div>
+    <div class="quality-table-wrap"><table class="quality-table"><thead><tr><th>Severidad</th><th>Campo</th><th>Fila</th><th>Descripción</th></tr></thead><tbody id="qualityDetails"></tbody></table></div>
+    <div class="dialog-actions"><span>Se muestran hasta 120 hallazgos</span><button id="qualityCloseBottom" type="button">Cerrar</button></div>
+  </dialog>
+  <footer><span>AKILA · Experiencias inmobiliarias</span><span>Fuente: apartamentos_akila.csv</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>

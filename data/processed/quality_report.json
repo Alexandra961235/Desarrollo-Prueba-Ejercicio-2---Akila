@@ -1,0 +1,662 @@
+{
+  "errors": 0,
+  "warnings": 109,
+  "duplicate_apartment_names": 109,
+  "unique_apartment_names": 305,
+  "issues": [
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 2003 (ids: 4, 397)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 2105 (ids: 6, 75, 101)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 1003 (ids: 8, 434)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 1802 (ids: 9, 120)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 1301 (ids: 10, 253, 311)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 2104 (ids: 11, 257, 289)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 1703 (ids: 12, 244)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 1902 (ids: 14, 74, 241, 269)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 1903 (ids: 15, 170, 305, 378)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 704 (ids: 17, 238)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 405 (ids: 18, 291)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 705 (ids: 22, 396, 414)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 205 (ids: 25, 317)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 102 (ids: 27, 217, 332, 346)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 2006 (ids: 29, 119, 136)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 805 (ids: 30, 185)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 2205 (ids: 31, 318)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 1706 (ids: 32, 404)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 2006 (ids: 35, 209, 456)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 1206 (ids: 37, 310)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 1306 (ids: 39, 320)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 2204 (ids: 40, 249, 263)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 501 (ids: 41, 256)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 1304 (ids: 42, 258, 406)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 305 (ids: 46, 125)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 605 (ids: 48, 368)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 502 (ids: 49, 57, 112, 143, 191, 231, 394)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 1005 (ids: 51, 363)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 1502 (ids: 54, 182, 193)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 1705 (ids: 56, 418)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 203 (ids: 58, 403, 421)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 1503 (ids: 59, 80)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 1403 (ids: 60, 183, 428)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 205 (ids: 63, 70, 239)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 2101 (ids: 65, 72, 353)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 1602 (ids: 66, 433)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 701 (ids: 67, 200, 424)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 1101 (ids: 68, 168, 401)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 2005 (ids: 69, 322)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 104 (ids: 76, 352)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 1905 (ids: 78, 315)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 404 (ids: 79, 86, 264, 398)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 701 (ids: 82, 384)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 804 (ids: 83, 214, 297)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 501 (ids: 89, 272)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 403 (ids: 90, 300)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 402 (ids: 91, 189, 410)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 906 (ids: 92, 141)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 805 (ids: 93, 323)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 2002 (ids: 95, 179)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 301 (ids: 96, 431)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 604 (ids: 99, 110, 276)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 1302 (ids: 103, 371, 407)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 705 (ids: 105, 213, 369)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 1903 (ids: 108, 121, 138, 150)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 2102 (ids: 109, 261)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 501 (ids: 111, 162)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 1602 (ids: 115, 345)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 1306 (ids: 117, 342)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 101 (ids: 123, 367)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 1301 (ids: 130, 234)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 1201 (ids: 146, 381)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 403 (ids: 152, 306)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 2203 (ids: 157, 184)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 401 (ids: 158, 167, 173, 337)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 803 (ids: 159, 316, 326)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 502 (ids: 164, 201, 372)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 1906 (ids: 166, 180)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 1204 (ids: 169, 268, 284, 430, 435)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 2201 (ids: 172, 389)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 1001 (ids: 176, 294)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 1004 (ids: 178, 312)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 1803 (ids: 181, 309)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 2201 (ids: 187, 196)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 1603 (ids: 194, 448)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 1206 (ids: 198, 248)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 1102 (ids: 202, 400)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 1801 (ids: 203, 422)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 1704 (ids: 206, 348)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 2104 (ids: 208, 265)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 706 (ids: 210, 228, 333)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 2106 (ids: 211, 441)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 505 (ids: 212, 280, 351, 452)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 1201 (ids: 215, 344)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 802 (ids: 224, 296)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 2103 (ids: 226, 331)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 1601 (ids: 232, 387)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 205 (ids: 240, 402)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 202 (ids: 246, 259)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 1803 (ids: 247, 455)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 2102 (ids: 255, 412, 417)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 1804 (ids: 260, 341)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 2204 (ids: 266, 304)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 1202 (ids: 270, 419)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 1104 (ids: 277, 449)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 303 (ids: 282, 445)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 1601 (ids: 287, 357)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 1506 (ids: 288, 366)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 903 (ids: 290, 365)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 1403 (ids: 292, 338, 377)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 1604 (ids: 303, 453)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 2202 (ids: 307, 450)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 502 (ids: 313, 439)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 1 Apto 1606 (ids: 324, 393)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 2 Apto 602 (ids: 330, 373)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 1001 (ids: 356, 362)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 1802 (ids: 361, 425)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 3 Apto 606 (ids: 420, 423)"
+    },
+    {
+      "row": null,
+      "field": "apartamento",
+      "severity": "warning",
+      "message": "apartamento repetido: Torre 4 Apto 301 (ids: 427, 443, 446)"
+    }
+  ]
+}
