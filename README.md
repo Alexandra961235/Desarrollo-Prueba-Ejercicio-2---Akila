@@ -51,7 +51,34 @@ o:
 ```powershell
 py --version
 ```
+## Clonar y ejecutar
 
+Después de verificar o instalar Python, comprueba que Git esté disponible:
+
+powershell
+git --version
+
+
+Si el comando no funciona, instala Git y vuelve a abrir PowerShell:
+
+powershell
+winget install --id Git.Git -e
+
+
+Clona el repositorio:
+
+powershell
+git clone https://github.com/Alexandra961235/Desarrollo-Prueba-Ejercicio-2---Akila.git
+
+
+Entra en la carpeta raíz del proyecto:
+
+powershell
+cd Desarrollo-Prueba-Ejercicio-2---Akila
+
+
+Si ya habías clonado el repositorio, no necesitas repetir el comando
+git clone; abre PowerShell directamente en la carpeta raíz del proyecto.
 ## Ejecutar
 
 Desde la raíz del repositorio:
